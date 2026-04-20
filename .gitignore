@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training artifacts (large — keep out of git, push to HF Hub instead)
+outputs/
+checkpoints/
+wandb/
+*.safetensors
+*.bin
+*.pt
+*.pth
+runs/
+
+# Data caches
+*.csv
+*.parquet
+.cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
