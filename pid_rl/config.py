@@ -207,7 +207,7 @@ class TrainConfig:
     max_prompt_length: int = 1024
     max_completion_length: int = 512
     learning_rate: float = 5e-6
-    max_steps: int = 500
+    max_steps: int = 50  # PoC smoke run on T4. Bump to 500 once end-to-end is green.
     warmup_ratio: float = 0.1
     kl_coef: float = 0.04
     seed: int = 42
