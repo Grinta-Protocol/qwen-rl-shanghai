@@ -208,7 +208,7 @@ Si el modelo entrenado no le gana a estos → hay bug en reward/sim, NO en train
 ## Referencias
 
 - Repos del proyecto: `/mnt/c/Users/henry/desktop/pid/` (protocol + agent actual)
-- Deployed state: `deployed_v10_1.json`
+- Deployed state: `deployed_v11.json`
 - Agent actual: `agent/src/` (TypeScript, GLM-5.1 via CommonStack API)
 - Decisions log: `agent/decisions.jsonl` (75KB — potencial SFT warmup data)
 - Reflexer digital twin (futuro v2 validation): https://github.com/reflexer-labs/reflexer-digital-twin
